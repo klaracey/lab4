@@ -1,5 +1,7 @@
 package Sorting;
 
+import java.util.Arrays;
+
 public class Main {
 
 	/**
@@ -21,6 +23,11 @@ public class Main {
 		System.out.println();
 		
 		System.out.println("Sorted Array:");
+		System.out.println("Array sorted by insertion sort:");
+		// insertion sort here
+
+		System.out.println("Array sorted by bubble sort:");
+		System.out.println(Arrays.toString(BubbleSort.bubbleSort(unsortedArray)));
 		//TODO: sort the array and print out its contents
 		
 		
