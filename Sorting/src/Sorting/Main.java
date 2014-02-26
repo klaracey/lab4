@@ -30,7 +30,10 @@ public class Main {
 		System.out.println(Arrays.toString(BubbleSort.bubbleSort(unsortedArray)));
 		//TODO: sort the array and print out its contents
 		
-		
+		int[] insertionSorted = InsertionSort.insertionSort(unsortedArray);
+		for (int i: insertionSorted) {
+				System.out.print(i + " ");
+		}
 	}
 
 }
